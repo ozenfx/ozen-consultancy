@@ -126,7 +126,7 @@ const PrivacyPolicy = () => {
                       </p>
                       <div className="flex items-center mt-6 bg-gray-50 p-4 rounded-lg">
                         <Mail className="text-primary h-5 w-5 mr-2" />
-                        <span className="font-medium">contact@ozenconsultancy.com</span>
+                        <span className="font-medium">mail@ozenconsultancy.com</span>
                       </div>
                     </div>
                   </div>
