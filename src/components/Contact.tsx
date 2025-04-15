@@ -1,3 +1,4 @@
+
 import { useState } from 'react';
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -55,7 +56,7 @@ const Contact = () => {
           <h2 className="heading-lg mb-4">Get In Touch</h2>
           <div className="w-20 h-1 bg-primary mx-auto mb-6"></div>
           <p className="text-gray-600">
-            Have questions or ready to start your business transformation? Reach out to us today.
+            Need assistance? Want to collaborate? Email us directly at <a href="mailto:support@ozenconsultancy.com" className="text-ozen-600 font-medium hover:underline">support@ozenconsultancy.com</a>. We're ready to help you optimize, simplify, and scale your operations.
           </p>
         </div>
 
@@ -74,7 +75,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="text-sm font-medium text-gray-500">Email Us</h4>
-                    <p className="text-gray-800">contact@ozenconsultancy.com</p>
+                    <p className="text-gray-800">support@ozenconsultancy.com</p>
                   </div>
                 </CardContent>
               </Card>

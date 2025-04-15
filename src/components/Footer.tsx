@@ -1,5 +1,6 @@
 
 import { Facebook, Twitter, Linkedin, Instagram, Mail, MapPin, Phone } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -59,10 +60,13 @@ const Footer = () => {
             <h4 className="text-lg font-semibold mb-6 relative inline-block after:content-[''] after:absolute after:left-0 after:-bottom-2 after:w-12 after:h-1 after:bg-ozen-400">Quick Links</h4>
             <ul className="space-y-3 text-gray-800">
               <li className="transition-all hover:translate-x-1 duration-200">
-                <a href="#home" className="hover:text-ozen-600 transition-colors">Home</a>
+                <Link to="/" className="hover:text-ozen-600 transition-colors">Home</Link>
               </li>
               <li className="transition-all hover:translate-x-1 duration-200">
-                <a href="#about" className="hover:text-ozen-600 transition-colors">About Us</a>
+                <Link to="/about" className="hover:text-ozen-600 transition-colors">About Us</Link>
+              </li>
+              <li className="transition-all hover:translate-x-1 duration-200">
+                <Link to="/how-it-works" className="hover:text-ozen-600 transition-colors">How It Works</Link>
               </li>
               <li className="transition-all hover:translate-x-1 duration-200">
                 <a href="#services" className="hover:text-ozen-600 transition-colors">Services</a>
@@ -100,9 +104,10 @@ const Footer = () => {
             &copy; {currentYear} All rights reserved.
           </p>
           <div className="mt-4 md:mt-0 flex space-x-6 text-gray-700">
-            <a href="#" className="hover:text-ozen-600 transition-colors">Privacy Policy</a>
-            <a href="#" className="hover:text-ozen-600 transition-colors">Terms of Service</a>
-            <a href="#" className="hover:text-ozen-600 transition-colors">Cookie Policy</a>
+            <Link to="/privacy-policy" className="hover:text-ozen-600 transition-colors">Privacy Policy</Link>
+            <Link to="/terms-conditions" className="hover:text-ozen-600 transition-colors">Terms & Conditions</Link>
+            <Link to="/return-policy" className="hover:text-ozen-600 transition-colors">Return Policy</Link>
+            <Link to="/how-it-works" className="hover:text-ozen-600 transition-colors">How It Works</Link>
           </div>
         </div>
       </div>

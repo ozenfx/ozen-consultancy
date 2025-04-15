@@ -8,7 +8,6 @@ import WhyChooseUs from '@/components/WhyChooseUs';
 import Services from '@/components/Services';
 import FAQ from '@/components/FAQ';
 import Testimonials from '@/components/Testimonials';
-import Contact from '@/components/Contact';
 
 const Index = () => {
   return (
@@ -21,7 +20,6 @@ const Index = () => {
       <Services />
       <FAQ />
       <Testimonials />
-      <Contact />
     </Layout>
   );
 };
