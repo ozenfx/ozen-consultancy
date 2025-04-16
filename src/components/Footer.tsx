@@ -25,7 +25,7 @@ const Footer = () => {
               <a href="https://x.com/OzenConsultancy" className="bg-gray-100 hover:bg-gray-200 p-2 rounded-full transition-colors duration-300 shadow-md">
                 <Twitter className="h-5 w-5 text-black" />
               </a>
-              <a href="#" className="bg-gray-100 hover:bg-gray-200 p-2 rounded-full transition-colors duration-300 shadow-md">
+              <a href="https://www.linkedin.com/uas/login-submit" className="bg-gray-100 hover:bg-gray-200 p-2 rounded-full transition-colors duration-300 shadow-md">
                 <Linkedin className="h-5 w-5 text-black" />
               </a>
               <a href="https://www.instagram.com/ozenconsultancy_global/" className="bg-gray-100 hover:bg-gray-200 p-2 rounded-full transition-colors duration-300 shadow-md">
