@@ -43,7 +43,7 @@ const Contact = () => {
                   href="tel:+919902392311" 
                   className="text-gray-600 hover:text-ozen-600 transition-colors block"
                 >
-                  +91 99023 92311
+                  +91 99023 99211
                 </a>
               </div>
             </CardContent>
