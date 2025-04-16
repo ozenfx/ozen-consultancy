@@ -19,16 +19,16 @@ const Footer = () => {
               </div>
             </div>
             <div className="flex space-x-3">
-              <a href="#" className="bg-gray-100 hover:bg-gray-200 p-2 rounded-full transition-colors duration-300 shadow-md">
+              <a href="https://www.facebook.com/profile.php?viewas=100000686899395&id=61574997913993" className="bg-gray-100 hover:bg-gray-200 p-2 rounded-full transition-colors duration-300 shadow-md">
                 <Facebook className="h-5 w-5 text-black" />
               </a>
-              <a href="#" className="bg-gray-100 hover:bg-gray-200 p-2 rounded-full transition-colors duration-300 shadow-md">
+              <a href="https://x.com/OzenConsultancy" className="bg-gray-100 hover:bg-gray-200 p-2 rounded-full transition-colors duration-300 shadow-md">
                 <Twitter className="h-5 w-5 text-black" />
               </a>
               <a href="#" className="bg-gray-100 hover:bg-gray-200 p-2 rounded-full transition-colors duration-300 shadow-md">
                 <Linkedin className="h-5 w-5 text-black" />
               </a>
-              <a href="#" className="bg-gray-100 hover:bg-gray-200 p-2 rounded-full transition-colors duration-300 shadow-md">
+              <a href="https://www.instagram.com/ozenconsultancy_global/" className="bg-gray-100 hover:bg-gray-200 p-2 rounded-full transition-colors duration-300 shadow-md">
                 <Instagram className="h-5 w-5 text-black" />
               </a>
             </div>
