@@ -86,17 +86,9 @@ const Footer = () => {
                 <MapPin className="h-5 w-5 text-ozen-400 mt-1 flex-shrink-0" />
                 <p>#423, 27th Main Road, 10th Cross,<br /> 1st Sector HSR Layout,<br /> Bangalore, Karnataka, India</p>
               </div>
-              <div className="flex items-center space-x-3">
-                <Mail className="h-5 w-5 text-ozen-400 flex-shrink-0" />
-                <a href="mailto:mail@ozenconsultancy.com" className="hover:text-ozen-600 transition-colors">mail@ozenconsultancy.com</a>
-              </div>
                <div className="flex items-center space-x-3">
                 <Mail className="h-5 w-5 text-ozen-400 flex-shrink-0" />
                 <a href="mailto:mail@ozenconsultancy.com" className="hover:text-ozen-600 transition-colors">support@ozenconsultancy.com</a>
-              </div>
-              <div className="flex items-center space-x-3">
-                <Phone className="h-5 w-5 text-ozen-400 flex-shrink-0" />
-                <a href="tel:+919902392311" className="hover:text-ozen-600 transition-colors">+91 99023 99211</a>
               </div>
               <div className="flex items-center space-x-3">
                 <Phone className="h-5 w-5 text-ozen-400 flex-shrink-0" />
